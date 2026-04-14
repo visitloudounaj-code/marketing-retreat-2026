@@ -10,7 +10,7 @@ A four-page static site presenting Visit Loudoun's April 2026 marketing retreat 
 
 | File | Purpose |
 |------|---------|
-| `index.html` | **Retreat Presentation** — competitive DMO research, data context, pages to tackle and the 90-day timeline |
+| `index.html` | **Strategy Brief** — site architecture and digital strategy case: the shift, data context, competitor benchmarks, the proposal, evidence and strategic alignment |
 | `sitemap-audit.html` | **Part A: Sitemap Audit & Restructure** — thin content flags, 19 consolidation candidates, content gap priorities and the page inventory |
 | `holiday-strategy.html` | **Part B: Holiday Content Strategy** — why blog posts don't compound, hub-and-spoke architecture and the Tier 1/2/3 holiday priority list |
 | `action-plan.html` | **Part C: Combined Action Plan** — interactive checklist across Quick Wins, Content Build and Architecture phases, with live progress bars |
@@ -21,7 +21,7 @@ A persistent "Questions for Discussion" block lives in the footer of every page 
 
 ```
 site/
-├── index.html              # Retreat Presentation
+├── index.html              # Strategy Brief
 ├── sitemap-audit.html      # Part A
 ├── holiday-strategy.html   # Part B
 ├── action-plan.html        # Part C
