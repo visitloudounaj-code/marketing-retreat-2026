@@ -1,0 +1,362 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Sitemap Audit &amp; Restructure — Visit Loudoun Marketing Retreat 2026</title>
+<meta name="description" content="Findings from a 73-page audit of VisitLoudoun.org — thin content flags, 19 consolidation candidates and content gap priorities.">
+<link href="https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,400;0,600;0,700;1,400;1,700&family=Source+Sans+3:ital,wght@0,300;0,400;0,600;0,700;1,400&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+<div class="scroll-progress" id="scrollProgress"></div>
+
+<header class="site-header">
+  <div class="header-top">
+    <div>
+      <h1>Visit Loudoun</h1>
+      <div class="subtitle">Marketing Retreat · April 2026</div>
+    </div>
+    <div class="header-meta">Digital Strategy Briefing<br>Prepared by AJ</div>
+  </div>
+  <nav class="site-nav" aria-label="Primary">
+    <a href="index.html">Retreat Presentation</a>
+    <a href="sitemap-audit.html" class="active">Sitemap Audit &amp; Restructure</a>
+    <a href="holiday-strategy.html">Holiday Content Strategy</a>
+    <a href="action-plan.html">Combined Action Plan</a>
+  </nav>
+</header>
+
+<main class="container">
+
+  <div class="part-divider">
+    <div class="part-label">Part A</div>
+    <h2>Sitemap Audit &amp; Restructure</h2>
+    <p>What we found when we audited every page on the site &mdash; and what to do about it.</p>
+  </div>
+
+  <section>
+    <div class="section-label">The Headline Numbers</div>
+    <h2 class="section-title">Current Site Health at a Glance</h2>
+    <p class="section-body">Audited 73 main-navigation pages across six sections of visitloudoun.org. The results confirm what the strategy brief predicted: the site's architecture is holding back its search performance.</p>
+
+    <div class="stat-grid">
+      <div class="stat-card animate-in delay-1"><div class="stat-number">53%</div><div class="stat-label">of pages have fewer than 200 words of body content</div></div>
+      <div class="stat-card sage animate-in delay-2"><div class="stat-number">19</div><div class="stat-label">pages can be consolidated via redirect &mdash; immediate quick wins</div></div>
+      <div class="stat-card brick animate-in delay-3"><div class="stat-number">265K+</div><div class="stat-label">GSC impressions on 5 pages with CTR under 0.6%</div></div>
+      <div class="stat-card vine animate-in delay-4"><div class="stat-number">0 / 12</div><div class="stat-label">town pages meet the 1,000-word content standard</div></div>
+    </div>
+
+    <div class="insight-callout">
+      Every town page is under 400 words. Ashburn has 73,795 search impressions and only 173 words of content. Leesburg lost 579 clicks year-over-year with just 316 words on its page. The demand exists &mdash; the content doesn't.
+    </div>
+  </section>
+
+  <section id="thin">
+    <div class="section-label">Audit Finding 1</div>
+    <h2 class="section-title">Thin Content Flags</h2>
+    <p class="section-body">40 pages with fewer than 200 words. Most are CMS listing pages with a one-paragraph intro and no editorial depth. Below are the most critical &mdash; full list in the <a href="#inventory" style="color: var(--deep-merlot);">inventory appendix</a>.</p>
+
+    <div class="data-table-wrap">
+      <table class="data-table">
+        <thead><tr><th>Page</th><th>Words</th><th>Section</th><th>Issue</th></tr></thead>
+        <tbody>
+          <tr><td><strong>Accessible Accommodations</strong></td><td class="word-count">32</td><td>Places to Stay</td><td>Near-empty. Three B&amp;B names and a feedback prompt.</td></tr>
+          <tr><td><strong>Equestrian Event Facilities</strong></td><td class="word-count">53</td><td>Things to Do</td><td>One paragraph + CMS listing. No descriptions.</td></tr>
+          <tr><td><strong>Tack &amp; Apparel Shops</strong></td><td class="word-count">54</td><td>Things to Do</td><td>One paragraph + CMS listing. No shop details.</td></tr>
+          <tr><td><strong>Spas &amp; Wellness</strong></td><td class="word-count">57</td><td>Things to Do</td><td>One generic paragraph. No spa descriptions.</td></tr>
+          <tr><td><strong>Hotels</strong></td><td class="word-count">60</td><td>Places to Stay</td><td>One paragraph + CMS listing. No hotel info.</td></tr>
+          <tr><td><strong>Wine Tours</strong></td><td class="word-count">65</td><td>Food &amp; Drink</td><td>Meta description restated as body copy.</td></tr>
+          <tr><td><strong>Wine Events</strong></td><td class="word-count">78</td><td>Food &amp; Drink</td><td>One paragraph + event widget. No editorial.</td></tr>
+          <tr><td><strong>Packages &amp; Experiences</strong></td><td class="word-count">85</td><td>Plan Your Visit</td><td>One paragraph. No actual packages described.</td></tr>
+          <tr><td><strong>Travel Like a Local</strong></td><td class="word-count">95</td><td>Things to Do</td><td>Brief intro referencing CTA itineraries &mdash; none shown.</td></tr>
+          <tr><td><strong>Breweries &amp; Tasting Rooms</strong></td><td class="word-count">107</td><td>Food &amp; Drink</td><td>Repeats LoCo Ale Trail parent page content.</td></tr>
+        </tbody>
+      </table>
+    </div>
+
+    <p class="section-body" style="margin-top:1rem;"><strong>Town pages are a separate concern:</strong> All 12 community pages range from 130 to 365 words &mdash; none come close to the 1,000-word target. These are covered in the <a href="#gaps" style="color: var(--deep-merlot);">Content Gaps</a> section.</p>
+  </section>
+
+  <section id="consolidation">
+    <div class="section-label">Audit Finding 2</div>
+    <h2 class="section-title">Consolidation Candidates</h2>
+    <p class="section-body">10 groups of pages can be merged into stronger pillars. Each redirect concentrates link equity, reduces crawl waste and creates one authoritative URL instead of several thin ones.</p>
+
+    <div class="consol-grid">
+      <div class="consol-card animate-in delay-1">
+        <div class="consol-header"><span class="consol-title">Wine Country Pillar</span><span class="consol-count">3 REDIRECTS</span></div>
+        <div class="consol-body">
+          <ul class="consol-pages">
+            <li><span class="keep">KEEP</span> /wine-country/ &mdash; expand into pillar</li>
+            <li><span class="redirect">REDIRECT</span> /wineries-and-tasting-rooms/</li>
+            <li><span class="redirect">REDIRECT</span> /wine-events/</li>
+            <li><span class="redirect">REDIRECT</span> /wine-tours/</li>
+          </ul>
+          <strong>Why:</strong> Three sub-pages (65&ndash;114 words) serve the same searcher intent as the parent.
+        </div>
+      </div>
+      <div class="consol-card animate-in delay-2">
+        <div class="consol-header"><span class="consol-title">LoCo Ale Trail Pillar</span><span class="consol-count">2 REDIRECTS</span></div>
+        <div class="consol-body">
+          <ul class="consol-pages">
+            <li><span class="keep">KEEP</span> /loco-ale-trail/ &mdash; expand into pillar</li>
+            <li><span class="redirect">REDIRECT</span> /breweries-and-tasting-rooms/</li>
+            <li><span class="redirect">REDIRECT</span> /brewery-events/</li>
+            <li><span class="keep">KEEP</span> /loco-ale-trail-passport/ &mdash; conversion page</li>
+          </ul>
+          <strong>Why:</strong> Breweries and events sub-pages repeat the parent. Passport stays &mdash; unique conversion intent.
+        </div>
+      </div>
+      <div class="consol-card animate-in delay-3">
+        <div class="consol-header"><span class="consol-title">Horse Country Pillar</span><span class="consol-count">3 REDIRECTS</span></div>
+        <div class="consol-body">
+          <ul class="consol-pages">
+            <li><span class="keep">KEEP</span> /horse-country/ &mdash; expand into pillar</li>
+            <li><span class="redirect">REDIRECT</span> /equestrian-event-facilities/</li>
+            <li><span class="redirect">REDIRECT</span> /horseback-riding/</li>
+            <li><span class="redirect">REDIRECT</span> /tack-and-apparel-shops/</li>
+          </ul>
+          <strong>Why:</strong> Three sub-pages at 53&ndash;148 words. None rank independently.
+        </div>
+      </div>
+      <div class="consol-card animate-in delay-4">
+        <div class="consol-header"><span class="consol-title">Farms &amp; Orchards Pillar</span><span class="consol-count">2 REDIRECTS</span></div>
+        <div class="consol-body">
+          <ul class="consol-pages">
+            <li><span class="keep">KEEP</span> /farms-and-orchards/ &mdash; already 440 words</li>
+            <li><span class="redirect">REDIRECT</span> /orchards-and-u-picks/</li>
+            <li><span class="redirect">REDIRECT</span> /farms-and-farmers-markets/</li>
+          </ul>
+          <strong>Why:</strong> Parent already covers the same farms described in both sub-pages.
+        </div>
+      </div>
+      <div class="consol-card animate-in delay-1">
+        <div class="consol-header"><span class="consol-title">Shopping &amp; Wellness</span><span class="consol-count">3 REDIRECTS</span></div>
+        <div class="consol-body">
+          <ul class="consol-pages">
+            <li><span class="keep">KEEP</span> /shopping-and-wellness/ &mdash; expand</li>
+            <li><span class="redirect">REDIRECT</span> /boutique-shops/</li>
+            <li><span class="redirect">REDIRECT</span> /malls-and-outlets/</li>
+            <li><span class="redirect">REDIRECT</span> /spas/</li>
+            <li><span class="keep">KEEP</span> /retail-centers/ &mdash; 577 words, strong editorial</li>
+          </ul>
+          <strong>Why:</strong> Three thin listing pages. Retail Centers has real content &mdash; stays standalone.
+        </div>
+      </div>
+      <div class="consol-card animate-in delay-2">
+        <div class="consol-header"><span class="consol-title">Getting Here &amp; Around</span><span class="consol-count">1 REDIRECT</span></div>
+        <div class="consol-body">
+          <ul class="consol-pages">
+            <li><span class="keep">KEEP</span> /getting-here-and-around/</li>
+            <li><span class="redirect">REDIRECT</span> /getting-here/</li>
+          </ul>
+          <strong>Why:</strong> Two pages split the same visitor intent. Merge into one.
+        </div>
+      </div>
+      <div class="consol-card animate-in delay-3">
+        <div class="consol-header"><span class="consol-title">History &amp; Museums</span><span class="consol-count">1 REDIRECT</span></div>
+        <div class="consol-body">
+          <ul class="consol-pages">
+            <li><span class="keep">KEEP</span> /history-and-museums/ &mdash; expand into pillar</li>
+            <li><span class="redirect">REDIRECT</span> /museums/</li>
+            <li><span class="keep">KEEP</span> /loudoun-county-timeline/ &mdash; distinct intent</li>
+            <li><span class="keep">KEEP</span> /african-american-history/ &mdash; expand separately</li>
+          </ul>
+          <strong>Why:</strong> Museums page lists the same four museums as the parent page.
+        </div>
+      </div>
+      <div class="consol-card animate-in delay-4">
+        <div class="consol-header"><span class="consol-title">Trails &amp; Parks</span><span class="consol-count">1 REDIRECT</span></div>
+        <div class="consol-body">
+          <ul class="consol-pages">
+            <li><span class="keep">KEEP</span> /hiking-and-trails/ &mdash; absorb parks content</li>
+            <li><span class="redirect">REDIRECT</span> /parks-and-gardens/</li>
+          </ul>
+          <strong>Why:</strong> Parks page (130 words) references the same trails. Blog "Best Hikes" already dominates.
+        </div>
+      </div>
+      <div class="consol-card animate-in delay-1">
+        <div class="consol-header"><span class="consol-title">Accessibility</span><span class="consol-count">1 REDIRECT</span></div>
+        <div class="consol-body">
+          <ul class="consol-pages">
+            <li><span class="keep">KEEP</span> /loudoun-accessibility/ &mdash; expand</li>
+            <li><span class="redirect">REDIRECT</span> /accessible-accommodations/ (32 words)</li>
+          </ul>
+          <strong>Why:</strong> Near-empty page. Fold B&amp;B names into the parent accessibility page.
+        </div>
+      </div>
+    </div>
+
+    <div class="insight-callout">
+      Net result: 19 thin pages redirected into 9 stronger pillar URLs. Crawl index reduced from 73 to approximately 54 main-navigation pages.
+    </div>
+  </section>
+
+  <section id="gaps">
+    <div class="section-label">Audit Finding 3</div>
+    <h2 class="section-title">Content Gap &amp; Expansion Priorities</h2>
+    <p class="section-body">Pages that exist but have clearly weak content relative to their search demand. The bar charts show current word count vs. the target. These need expansion, not deletion.</p>
+
+    <h3 style="font-family: var(--font-serif); font-size: 1.1rem; color: var(--scarlet-coat); margin: 2rem 0 1rem; font-weight: 700;">Critical &mdash; High Volume, Low Content</h3>
+
+    <div class="gap-item animate-in delay-1">
+      <div class="gap-top">
+        <span class="gap-page">Ashburn Town Page</span>
+        <div class="gap-stats">
+          <span><strong>173</strong> words (target: 1,000)</span>
+          <span><strong>73,795</strong> impressions</span>
+          <span>CTR: <strong style="color: var(--scarlet-coat);">0.47%</strong></span>
+        </div>
+      </div>
+      <div class="gap-bar-track"><div class="gap-bar-fill critical" style="width: 17%;"></div></div>
+      <div class="gap-brief">Biggest gap on the site. Promises "Things to Do in Ashburn VA" but delivers a 173-word stub. Needs: One Loudoun, dining, nightlife, sports venues, data center history, Metro access, FAQ.</div>
+    </div>
+
+    <div class="gap-item animate-in delay-2">
+      <div class="gap-top">
+        <span class="gap-page">Leesburg Town Page</span>
+        <div class="gap-stats">
+          <span><strong>316</strong> words (target: 1,500)</span>
+          <span><strong>59,799</strong> impressions</span>
+          <span>Lost <strong style="color: var(--scarlet-coat);">579 clicks</strong> YoY</span>
+        </div>
+      </div>
+      <div class="gap-bar-track"><div class="gap-bar-fill critical" style="width: 21%;"></div></div>
+      <div class="gap-brief">County seat deserves the deepest page on the site. Needs: Coffee Corridor, King Street dining, Morven Park, Oatlands, Dodona Manor, arts district, brewery scene, FAQ.</div>
+    </div>
+
+    <div class="gap-item animate-in delay-3">
+      <div class="gap-top">
+        <span class="gap-page">Restaurants &amp; Dining</span>
+        <div class="gap-stats">
+          <span><strong>163</strong> words (target: 800)</span>
+          <span><strong>68,492</strong> impressions</span>
+          <span>CTR: <strong style="color: var(--scarlet-coat);">0.21%</strong></span>
+        </div>
+      </div>
+      <div class="gap-bar-track"><div class="gap-bar-fill critical" style="width: 20%;"></div></div>
+      <div class="gap-brief">Title says "Restaurants &amp; Dining" but page has no restaurant content. Needs: cuisine types, dining districts by town, farm-to-table narrative, featured restaurants.</div>
+    </div>
+
+    <div class="gap-item animate-in delay-4">
+      <div class="gap-top">
+        <span class="gap-page">Sterling Town Page</span>
+        <div class="gap-stats">
+          <span><strong>163</strong> words (target: 1,000)</span>
+          <span><strong>36,147</strong> impressions</span>
+          <span>CTR: <strong style="color: var(--scarlet-coat);">0.21%</strong></span>
+        </div>
+      </div>
+      <div class="gap-bar-track"><div class="gap-bar-fill critical" style="width: 16%;"></div></div>
+      <div class="gap-brief">163 words for 36K impressions. Needs: Claude Moore Park, Algonkian, Heritage Farm Museum, W&amp;OD access, dining, data centers, FAQ.</div>
+    </div>
+
+    <div class="gap-item animate-in delay-1">
+      <div class="gap-top">
+        <span class="gap-page">Middleburg Town Page</span>
+        <div class="gap-stats">
+          <span><strong>359</strong> words (target: 1,500)</span>
+          <span><strong>27,826</strong> impressions</span>
+          <span>CTR: <strong style="color: var(--scarlet-coat);">0.37%</strong></span>
+        </div>
+      </div>
+      <div class="gap-bar-track"><div class="gap-bar-fill critical" style="width: 24%;"></div></div>
+      <div class="gap-brief">Best existing town content but still under 400 words. Needs: Salamander detail, Red Fox Inn history, boutique shopping, film festival, Christmas parade, horse culture, FAQ.</div>
+    </div>
+
+    <h3 style="font-family: var(--font-serif); font-size: 1.1rem; color: var(--toasty-brick); margin: 2.5rem 0 1rem; font-weight: 700;">Important &mdash; Has Search Presence, Needs Depth</h3>
+
+    <div class="data-table-wrap">
+      <table class="data-table">
+        <thead><tr><th>Page</th><th>Words</th><th>Target</th><th>What's Missing</th></tr></thead>
+        <tbody>
+          <tr><td><strong>Purcellville</strong></td><td class="word-count">222</td><td>1,000</td><td>Catoctin Creek story, W&amp;OD terminus, Bush Tabernacle, dining boom, FAQ</td></tr>
+          <tr><td><strong>Waterford</strong></td><td class="word-count">203</td><td>1,000</td><td>Quaker history, Waterford Fair detail, winery cluster, National Historic Landmark, FAQ</td></tr>
+          <tr><td><strong>Hillsboro</strong></td><td class="word-count">217</td><td>1,000</td><td>Route 9 corridor, winery cluster, Old Stone School, adventure activities, FAQ</td></tr>
+          <tr><td><strong>Bluemont</strong></td><td class="word-count">190</td><td>1,000</td><td>Bear's Den detail, Great Country Farms, winery scene, Snickersville Turnpike, FAQ</td></tr>
+          <tr><td><strong>Round Hill</strong></td><td class="word-count">222</td><td>1,000</td><td>AT access detail, Hill High Marketplace, farm community, FAQ</td></tr>
+          <tr><td><strong>Hamilton</strong></td><td class="word-count">184</td><td>1,000</td><td>Harmony wine cluster, Barns at Hamilton Station, Quaker history, FAQ</td></tr>
+          <tr><td><strong>Lovettsville</strong></td><td class="word-count">177</td><td>1,000</td><td>German Settlement history, Oktoberfest, new restaurants, MARC train, FAQ</td></tr>
+          <tr><td><strong>Lucketts</strong></td><td class="word-count">130</td><td>1,000</td><td>Antique shopping detail, Route 15 corridor, winery/brewery scene, FAQ</td></tr>
+          <tr><td><strong>African American History</strong></td><td class="word-count">153</td><td>800</td><td>Town-by-town stories, specific sites, Underground Railroad, Second Street School</td></tr>
+          <tr><td><strong>Things to Do Hub</strong></td><td class="word-count">298</td><td>500</td><td>Strong editorial intro needed &mdash; currently just blog teasers. Lost 87K impressions YoY.</td></tr>
+          <tr><td><strong>DC's Wine Country (post-consolidation)</strong></td><td class="word-count">252</td><td>800</td><td>Winery clusters, varietal guide, events calendar, tour options</td></tr>
+          <tr><td><strong>Tourism with Purpose</strong></td><td class="word-count">225</td><td>600</td><td>Reads as blog teasers, not a cohesive sustainability page</td></tr>
+        </tbody>
+      </table>
+    </div>
+  </section>
+
+  <section id="inventory">
+    <div class="section-label">Appendix</div>
+    <h2 class="section-title">Page Inventory Summary</h2>
+
+    <div class="data-table-wrap">
+      <table class="inventory-table">
+        <thead>
+          <tr><th>Section</th><th>Total Pages</th><th>Under 200 Words</th><th>Consolidation Candidates</th><th>Post-Consolidation</th></tr>
+        </thead>
+        <tbody>
+          <tr><td><strong>Things to Do</strong></td><td>29</td><td>16</td><td>12 redirects</td><td>17</td></tr>
+          <tr><td><strong>Food &amp; Drink</strong></td><td>13</td><td>8</td><td>5 redirects</td><td>8</td></tr>
+          <tr><td><strong>Towns &amp; Places</strong></td><td>13</td><td>10</td><td>0</td><td>13 (all need expansion)</td></tr>
+          <tr><td><strong>Events</strong></td><td>4</td><td>1</td><td>0</td><td>4</td></tr>
+          <tr><td><strong>Places to Stay</strong></td><td>6</td><td>5</td><td>1 redirect</td><td>5</td></tr>
+          <tr><td><strong>Plan Your Visit</strong></td><td>8</td><td>2</td><td>1 redirect</td><td>7</td></tr>
+        </tbody>
+        <tfoot>
+          <tr><td>Total</td><td>73</td><td>42</td><td>19 redirects</td><td>~54 + holiday hubs</td></tr>
+        </tfoot>
+      </table>
+    </div>
+
+    <p class="section-body" style="margin-top: 1.5rem; font-size: 0.85rem; color: var(--stacked-stone);">
+      Report generated from sitemap scrape (April 8, 2026), Site Health Report (April 7, 2026), and Blog Audit (April 7, 2026). All word counts reflect body content only. GSC/GA4 data from the 30-day period ending April 7, 2026.
+    </p>
+  </section>
+
+</main>
+
+<footer class="site-footer">
+  <div class="footer-questions">
+    <div class="section-label">For the Room</div>
+    <h2>Questions for Discussion</h2>
+    <p class="lead">These are the decisions I'd like the team's input on. I have recommendations for each, but I want to hear how these align with what everyone else is working on.</p>
+    <div class="discussion-grid">
+      <div class="discussion-card">
+        <h4>Which town pages should we tackle first?</h4>
+        <p>Ashburn (73K impressions) and Leesburg (county seat, declining clicks) &mdash; but the strat plan also calls out Middleburg and eastern Loudoun. What does the team think?</p>
+      </div>
+      <div class="discussion-card">
+        <h4>Which holiday do we pilot first?</h4>
+        <p>Fall Season is highest volume. Valentine's Day gives us the longest runway. Mother's Day has an existing blog post we can redirect. Which is the best pilot?</p>
+      </div>
+      <div class="discussion-card">
+        <h4>What should the Locals page look like?</h4>
+        <p>The strat plan calls for community involvement and local storytelling. CTA-curated itineraries, resident-submitted recommendations, a mix? Who owns the content?</p>
+      </div>
+      <div class="discussion-card">
+        <h4>Can we redirect the 19 thin pages this month?</h4>
+        <p>Quick wins that require CMS changes but no editorial work. Can we get these done in the next two weeks?</p>
+      </div>
+      <div class="discussion-card">
+        <h4>Who owns the annual holiday refresh cycle?</h4>
+        <p>Each hub needs a refresh 6&ndash;8 weeks before the holiday. Should this be a recurring Asana task? Who's responsible for the annual update?</p>
+      </div>
+      <div class="discussion-card">
+        <h4>What role should the agency play?</h4>
+        <p>Miles Partnership has been recommending many of these structural changes since September 2025. Should we loop them in on implementation, or handle internally first?</p>
+      </div>
+    </div>
+  </div>
+  <div class="footer-attribution">
+    <p>Sources: Visit Loudoun Sitemap Audit (Apr 9, 2026) &nbsp;&bull;&nbsp; Miles Partnership SEO Reports (Jun 2025 &ndash; Feb 2026) &nbsp;&bull;&nbsp; Site Health Report (Apr 7, 2026) &nbsp;&bull;&nbsp; State of AI in Travel 2026 &nbsp;&bull;&nbsp; Elevate Loudoun 2026&ndash;2028 Strategic Plan</p>
+    <p class="sig">Prepared by AJ for Visit Loudoun Marketing Retreat &middot; April 2026</p>
+  </div>
+</footer>
+
+<script src="scripts.js"></script>
+</body>
+</html>
